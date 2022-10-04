@@ -1,0 +1,13 @@
+config:
+  target: "<insert lambda url>"
+  phases:
+    - duration: 1
+      arrivalRate: 50
+      name: Warmup
+    - duration: 1200
+      arrivalRate: 5
+      name: Performance test
+scenarios:
+  - flow:
+    - get:
+        url: "/"
