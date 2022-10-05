@@ -1,0 +1,11 @@
+name: Repository dispatch 2
+on:
+  repository_dispatch:
+jobs:
+  print:
+    name: Print
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Outputs
+        run: |
+          echo Message
