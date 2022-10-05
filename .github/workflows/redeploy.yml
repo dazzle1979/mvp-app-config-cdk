@@ -1,7 +1,5 @@
 name: Repository dispatch
-on:
-  repository_dispatch:
-    types: [test]
+on: [repository_dispatch]
 jobs:
   print:
     name: Print
