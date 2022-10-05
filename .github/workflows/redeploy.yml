@@ -1,5 +1,5 @@
 name: Repository dispatch
-on: [repository_dispatch]
+on: repository_dispatch
 jobs:
   print:
     name: Print
