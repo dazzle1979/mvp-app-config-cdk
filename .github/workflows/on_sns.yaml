@@ -1,4 +1,6 @@
-uses: actionsflow/actionsflow-action@v1
+- name: Actionsflow Action
+  uses: actionsflow/actionsflow-action@v1
+
 name: SNSTrigger
 on:
   aws_sns:
