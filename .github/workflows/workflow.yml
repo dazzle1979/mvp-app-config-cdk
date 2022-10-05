@@ -2,7 +2,7 @@ name: Repository dispath
 on:
   repository_dispatch:
     types: [on-demand-test]
-jobs: 
+jobs:
   print:
     name: Print
     runs-on: ubuntu-latest
