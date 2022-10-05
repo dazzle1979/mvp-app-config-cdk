@@ -1,6 +1,6 @@
 name: Repository dispatch 2
 on:
-  repository_dispatch:
+  pull
 jobs:
   print:
     name: Print
