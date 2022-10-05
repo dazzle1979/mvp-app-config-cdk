@@ -1,6 +1,7 @@
+name: SNSTrigger
 on:
   aws_sns:
-jobs:
+jobs: 
   print:
     name: Print
     runs-on: ubuntu-latest
