@@ -1,4 +1,4 @@
-name: Repository dispath
+name: Repository dispatch
 on:
   repository_dispatch:
     types: [on-demand-test]
