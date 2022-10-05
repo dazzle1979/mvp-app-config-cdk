@@ -7,4 +7,4 @@ jobs:
     steps:
       - name: Print Outputs
         run: |
-          echo Message
+          echo ${{ github.event.client_payload }}
